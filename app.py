@@ -3,7 +3,7 @@ import pickle
 import streamlit as st
 
 # Load the saved model
-with open('C:\\Users\\harin\\OneDrive\\Desktop\\fruit\\label.pkl', 'rb') as file:
+with open('label.pkl', 'rb') as file:
     loaded_model = pickle.load(file)
 
 # Function for crop recommendation
